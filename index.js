@@ -17,6 +17,7 @@ for (i = 0; i < sortedNumbers.length - 1; i++) {
   if (sortedNumbers[i + 1] - sortedNumbers[i] !== 1) {
     console.log("False");
     break;
+    
   }
 }
 if (i >= sortedNumbers.length - 1) {
