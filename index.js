@@ -1,5 +1,4 @@
-console.log("====running====");
-
+console.log("====aidi====");
 const numbers = [1, 5, 3, 4];
 
 function sortNumbers() {
@@ -22,3 +21,4 @@ for (i = 0; i < sortedNumbers.length - 1; i++) {
 if (i >= sortedNumbers.length - 1) {
   console.log("True");
 }
+
