@@ -1,3 +1,5 @@
+console.log("====aidi====");
+
 const numbers = [1, 5, 3, 4];
 
 function sortNumbers() {
@@ -14,7 +16,7 @@ let i;
 for (i = 0; i < sortedNumbers.length - 1; i++) {
   if (sortedNumbers[i + 1] - sortedNumbers[i] !== 1) {
     console.log("False");
-    break; //nese eshte False e ben Break direkt dhe nuk vazhdon me funksionin
+    break;
   }
 }
 if (i >= sortedNumbers.length - 1) {
