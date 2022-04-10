@@ -1,0 +1,9 @@
+{
+  "name": "application-sda",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "nis": "node index.js"
+  },
+  "dependencies": {}
+}
