@@ -1,25 +1,26 @@
-console.log("====Albani====");
 
-const orderNumbers = [9, 1, 3, 7];
+console.log("====running====");
 
-function sortNumbers(){
-    orderNumbers.sort (function(a,b){
-        return a-b;
-    });
-    return sortNumbers;
+const numbers = [1, 5, 3, 4];
+
+function sortNumbers() {
+  numbers.sort(function (a, b) {
+    return a - b;
+  });
+  return numbers;
 }
 
-let sortedNumbers = sortNumbers(orderNumbers);
+let sortedNumbers = sortNumbers(numbers);
 console.log(sortedNumbers);
 
 let i;
-for (i=0; i<sortedNumbers.length-1; i++){
-    if(sortedNumbers[i+1] - sortedNumbers[i] !==1){
-        console.log("false");
-        break;
-    }
+for (i = 0; i < sortedNumbers.length - 1; i++) {
+  if (sortedNumbers[i + 1] - sortedNumbers[i] !== 1) {
+    console.log("False");
+    break;
+  }
+}
+if (i >= sortedNumbers.length - 1) {
+  console.log("True");
 }
 
-if (i >= sortedNumbers.length-1){
-    console.log("true");
-}
