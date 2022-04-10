@@ -1,5 +1,4 @@
-console.log("====running====");
-
+console.log("====aidi====");
 const numbers = [1, 5, 3, 4];
 
 function sortNumbers() {
@@ -23,3 +22,4 @@ if (i >= sortedNumbers.length - 1) {
   //ky funksion ekzekutohet pasi ka mbaruar gjithe Loop-i pa u bere asnjehere break.
   console.log("True");
 }
+
