@@ -20,8 +20,5 @@ for (i = 0; i < sortedNumbers.length - 1; i++) {
   }
 }
 if (i >= sortedNumbers.length - 1) {
-  //ky funksion ekzekutohet pasi ka mbaruar gjithe Loop-i pa u bere asnjehere break.
   console.log("True");
 }
-
-//comments
