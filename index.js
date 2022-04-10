@@ -1,7 +1,5 @@
 
-console.log("====Albani====");
-
-// <<<<<<<<>>>>>
+console.log("====aidi====");
 
 const numbers = [1, 5, 3, 4];
 
