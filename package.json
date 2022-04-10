@@ -3,7 +3,10 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "nis": "node index.js"
+    "nis": "node index.js",
+    "server": "node server.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
